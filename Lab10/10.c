@@ -27,6 +27,21 @@ float** distances(unsigned n, struct point points[]) {
     return distances;
 }
 
+void deleteSymbol(char* p) {
+    while (*p != '\0') {
+        *p = *(p + 1);
+    }
+}
+
+void deleteSpaces(char* p) {
+    while (*p != '\0') {
+        if (*p == ' ' && *(p + 1) == ' ') {
+            deleteSymbol(p);
+        }
+
+    }
+}
+
 int main(int argc, char *argv[]) {
     //Task 2
     printf("=== Task 2 ===\n");
@@ -55,6 +70,10 @@ int main(int argc, char *argv[]) {
         }
         printf("\n");
     }
+
+    //Task 5
+    printf("=== Task 5 ===");
+
 
     return 0;
 }
