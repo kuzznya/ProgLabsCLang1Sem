@@ -1,6 +1,8 @@
 # Лабораторные работы по программированию, 1 семестр
 Лабораторные работы по программированию 1 семестра обучения, язык C (C99)
 
+Работы выполнены для 10 варианта
+
 1. [Разработка консольного приложения](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab1/1.c)
 2. [Расчет значения функции в заданной точке](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab2/2.c)
 3. [Представление чисел в различных системах счисления и битовые операции](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab3/3.c)
