@@ -20,4 +20,6 @@ struct Ring makeRing(int, int, float, float);
 float ringPerimeter(struct Ring);
 float ringArea(struct Ring);
 
+#include "11.c"
+
 #endif //MAINPROJECT_11_H

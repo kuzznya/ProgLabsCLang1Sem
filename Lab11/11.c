@@ -10,6 +10,8 @@ float ringPerimeter(struct Ring ring) {
 }
 
 float ringArea(struct Ring ring) {
-    //TODO ring area
+    float S1 = M_PI * ring.radius1;
+    float S2 = M_PI * ring.radius2;
+    return abs(S2 - S1);
 }
 
