@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 
 struct point {
     int x;
@@ -27,18 +28,26 @@ float** distances(unsigned n, struct point points[]) {
     return distances;
 }
 
-void deleteSymbol(char* p) {
-    while (*p != '\0') {
-        *p = *(p + 1);
+//void deleteSymbol(char* p) {
+//    while (*p != '\0') {
+//        *p = *(p + 1);
+//    }
+//}
+
+void deleteSymbol(char p[]) {
+    for (int i = 0; p[i] != '\0'; i++) {
+        p[i] = p[i + 1];
     }
 }
 
 void deleteSpaces(char* p) {
     while (*p != '\0') {
         if (*p == ' ' && *(p + 1) == ' ') {
-            deleteSymbol(p);
+            deleteSymbol(p + 1);
+            deleteSpaces(p);
+            return;
         }
-
+        p++;
     }
 }
 
@@ -72,8 +81,13 @@ int main(int argc, char *argv[]) {
     }
 
     //Task 5
-    printf("=== Task 5 ===");
+    printf("=== Task 5 ===\n");
 
+    char str[128];
+    getc(stdin);
+    gets(str);
+    deleteSpaces(str);
+    printf("%s\n", str);
 
     return 0;
 }
