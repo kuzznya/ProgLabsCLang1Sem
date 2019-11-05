@@ -1,10 +1,6 @@
 #ifndef MAINPROJECT_11_H
 #define MAINPROJECT_11_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 struct Point {
     int x;
     int y;

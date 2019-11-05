@@ -1,3 +1,4 @@
+#include <math.h>
 
 struct Ring makeRing(int x, int y, float radius1, float radius2) {
     return (struct Ring) {(struct Point) {x, y}, radius1, radius2};
