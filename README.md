@@ -14,7 +14,7 @@
 9. [Циклы и ветвления](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab9/9.c)
 10. [Функции](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab10/10.c)
 11. [Использование заголовочных файлов](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab11/)
-12. [Операции ввода-вывода]() (-)
+12. [Операции ввода-вывода](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab12/12.c)
 13. [Редактор метаинформации mp3-файла]() (-)
 14. [Игра жизнь]() (-)
 15. [Архиватор]() (-)
