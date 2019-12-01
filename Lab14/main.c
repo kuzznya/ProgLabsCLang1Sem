@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "bmp.h"
+#include "gameio.h"
 
 int main(int argc, char* argv[]) {
     //printPixelData(readBMP("testsmile.bmp"));
@@ -10,6 +11,10 @@ int main(int argc, char* argv[]) {
         pixelData[image->bmpInfo->biHeight - 1][i] = 0;
     }
     setPixelData(image, pixelData);
+    printPixelData(image);
+
+    GameField field = getGameField(image);
+    editImage(image, field);
     printPixelData(image);
     writeBMP(image, "testsmileout.bmp");
     return 0;
