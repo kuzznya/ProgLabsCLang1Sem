@@ -3,4 +3,4 @@ project(ProgLabsCLang C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(MainProject Lab12/12.c)
+add_executable(ProgLabsCLang Lab12/12.c)
