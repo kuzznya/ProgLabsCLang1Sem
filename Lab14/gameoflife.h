@@ -22,7 +22,7 @@ typedef struct {
 GameField getGameField(BMP* image);
 void editImage(BMP* image, GameField field);
 
-GAME newGame(BMP* image, unsigned maxGenCount, unsigned outputFreq, char* outputDir);
-void start(GAME game);
+GAME* newGame(BMP* image, unsigned maxGenCount, unsigned outputFreq, char* outputDir);
+void start(GAME* game);
 
 #endif //PROGLABSCLANG_GAMEOFLIFE_H
