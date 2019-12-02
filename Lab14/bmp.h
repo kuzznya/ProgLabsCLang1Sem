@@ -36,7 +36,6 @@ typedef struct {
 BMP* readBMP(char* filepath);
 
 void writeBMP(BMP* image, char* filepath);
-void printPixelData(BMP* image);
 char** getPixelData(BMP* image);
 void setPixelData(BMP* image, char** pixelData);
 

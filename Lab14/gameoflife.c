@@ -91,10 +91,6 @@ void start(GAME* game) {
         nextGen(game);
         if (game->currentGen % game->outputFreq == 0) {
             editImage(game->image, game->field);
-//            printf("Field:\n");
-//            printField(&game->field);
-//            printf("\nImage:\n");
-//            printPixelData(game->image);
             char filename[200];
             strcpy(filename, game->outputDir);
             char num_str[50];

@@ -29,10 +29,6 @@ BMP* readBMP(char* filepath) {
     image->gap1 = malloc(getGap1Size(image));
     fread(image->gap1, getGap1Size(image), 1, BMPFile);
 
-    printf("Padding: %d\n", getPadding(image));
-    printf("Gap1 size: %d\n", getGap1Size(image));
-
-
     image->pixelData = malloc(sizeof(char) * getPixelDataSize(image));
     fread(image->pixelData, sizeof(char) * getPixelDataSize(image), 1, BMPFile);
 
@@ -52,18 +48,6 @@ void writeBMP(BMP* image, char* filepath) {
     fwrite(image->pixelData, sizeof(char), getPixelDataSize(image), BMPFile);
 
     fclose(BMPFile);
-}
-
-void printPixelData(BMP* image) {
-    for (int i = image->bmpInfo->biHeight - 1; i >= 0; i--) {
-        for (int j = 0; j < image->bmpInfo->biWidth; j++) {
-            if (image->pixelData[i * (image->bmpInfo->biWidth + getPadding(image)) + j])
-                printf(" ");
-            else
-                printf("*");
-        }
-        printf("\n");
-    }
 }
 
 char** getPixelData(BMP* image) {
