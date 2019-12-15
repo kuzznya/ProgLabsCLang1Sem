@@ -3,4 +3,4 @@ project(ProgLabsCLang C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ProgLabsCLang Lab14/main.c Lab14/bmp.c Lab14/bmp.h Lab14/gameoflife.c Lab14/gameoflife.h)
+add_executable(ProgLabsCLang Lab13/main.c Lab13/mp3id3v2.c Lab13/mp3id3v2.h)
