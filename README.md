@@ -15,7 +15,7 @@
 10. [Функции](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab10/10.c)
 11. [Использование заголовочных файлов](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab11/)
 12. [Операции ввода-вывода](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab12/12.c)
-13. [Редактор метаинформации mp3-файла]() (-)
+13. [Редактор метаинформации mp3-файла](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab13/)
 14. [Игра жизнь]() (-)
 15. [Архиватор]() (-)
 
