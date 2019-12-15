@@ -17,6 +17,6 @@
 12. [Операции ввода-вывода](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab12/12.c)
 13. [Редактор метаинформации mp3-файла](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab13/)
 14. [Игра жизнь](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab14/)
-15. [Архиватор]() (-)
+15. [Архиватор](https://github.com/kuzznya/ProgLabsCLang1Sem/blob/master/Lab15/)
 
 Для запуска необходимой программы в CLion необходимо указать путь к ней в CMakeLists.txt
