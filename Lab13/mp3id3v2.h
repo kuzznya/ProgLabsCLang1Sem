@@ -3,37 +3,6 @@
 
 #pragma pack(push, 1)
 
-//typedef union {
-//    struct {
-//        char        fileID[3];
-//        char        version[2];
-//        char        flags;
-//        unsigned    size;
-//    } data;
-//
-//    char buffer[10];
-//} ID3v2Header;
-//
-//typedef union {
-//    struct {
-//        unsigned extHeaderSize;
-//        unsigned short extFlags;
-//        unsigned paddingSize;
-//    } data;
-//
-//    char buffer[10];
-//} ID3v2ExtendedHeader;
-//
-//typedef union {
-//    struct {
-//        char frameID[4];
-//        unsigned size;
-//        unsigned short flags;
-//    } data;
-//
-//    char buffer[10];
-//} FrameHeader;
-
 typedef struct {
     char        fileID[3];
     char        version[2];
